@@ -90,8 +90,8 @@ on:
         required: false
         type: string
         default: ''
-        droidspaces:
-        description:'一款轻量级Linux容器工具'
+      droidspaces:
+        description: '一款轻量级Linux容器工具'
         required: true
         type: boolean
         default: 'false'
