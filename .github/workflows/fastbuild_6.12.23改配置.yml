@@ -576,7 +576,7 @@ jobs:
         run: |
             cd kernel_workspace/common
             wget "https://github.com/Goldzxcbug/Droidspaces_Kernel_patch/raw/refs/heads/main/NTsync/ntsync_compat_android16-6.12.patch"
-            patch -p1 < 'ntsync_compat_android16-6.15.patch'            
+            patch -p1 < 'ntsync_compat_android16-6.12.patch'            
             cd ../
             #开启NTsync内核配置
             echo "CONFIG_NTSYNC=y" >> ./common/arch/arm64/configs/gki_defconfig
